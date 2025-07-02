@@ -1,16 +1,117 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Punjabi Pehrawa - Traditional Women's Clothing</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff9f5;
+      color: #333;
+    }
+    header {
+      background-color: #800020;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffcccb;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #800020;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #800020;
+    }
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .product {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #800020;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
 
-<!--
-**punjabipehrawa/Punjabipehrawa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <header>
+    <h1>Punjabi Pehrawa</h1>
+    <p>Traditional Elegance for Women</p>
+  </header>
 
-Here are some ideas to get you started:
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Punjabi Pehrawa</strong> is a celebration of traditional women’s clothing rooted in culture, grace, and elegance. Based in Gurgaon, our physical store has been serving loyal customers who appreciate quality, craftsmanship, and style.</p>
+    <p>With immense love and support from our local community, we’re now expanding across India through our website — so everyone can enjoy our beautiful traditional collections from anywhere.</p>
+    <p>Whether you're looking for classic Punjabi suits, elegant dupattas, or festive ethnic wear, Punjabi Pehrawa has something for every occasion.</p>
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <div class="shop-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Phulkari+Suit" alt="Phulkari Suit">
+        <h3>Phulkari Suit</h3>
+        <p>₹2,499</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Patiala+Salwar" alt="Patiala Salwar">
+        <h3>Patiala Salwar</h3>
+        <p>₹1,899</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Traditional+Dupatta" alt="Traditional Dupatta">
+        <h3>Traditional Dupatta</h3>
+        <p>₹799</p>
+      </div>
+      <!-- You can add more products here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Whether you're placing an order, have a question, or want to visit us in person, here’s how to reach out:</p>
+    <p><strong>Phone:</strong><br>📞 7304689515<br>📞 9667810322</p>
+    <p><strong>Visit Our Store:</strong><br>Plot No. 23A, Sai Kunj, New Palam Vihar,<br>Gurgaon 122017, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Punjabi Pehrawa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
